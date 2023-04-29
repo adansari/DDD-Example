@@ -11,7 +11,7 @@ namespace OMS.Test
         public void shouldCreateAnOrder()
         {
             // arrange
-            var customer = Customer.Create("Andrew", "andrew@foo.com");
+            var customer = Customer.Create("Adil", "Adil@foo.com");
 
             // act
             var order = Order.Create(customer);
@@ -25,7 +25,7 @@ namespace OMS.Test
         public void shouldAddOrderLines()
         {
             // arrange
-            var customer = Customer.Create("Andrew", "andrew@foo.com");
+            var customer = Customer.Create("Adil", "Adil@foo.com");
             var fakeToy = Product.Create("Toy", "Toy upto 5 years", 10.00, "xxxxxx");
 
             // act

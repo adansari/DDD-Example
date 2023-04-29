@@ -13,7 +13,7 @@ namespace OMS.Application
     {
         public static void Main(string[] args)
         {
-            var customer = Customer.Create("Andrew", "andrew@foo.com");
+            var customer = Customer.Create("Adil", "Adil@foo.com");
             var toy = Product.Create("Toy", "Toy upto 5 years", 10.00, "xxxxxx");
             var laptop = Product.Create("Laptop", "15|i5 12 gen|8GB|1TB", 1000.00, "xxxxxx");
 
